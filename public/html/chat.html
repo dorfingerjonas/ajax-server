@@ -5,6 +5,7 @@
     <title>Chat</title>
     <link rel="stylesheet" type="text/css" href="main.css">
     <script src="chat_loading.js" defer></script>
+    <script src="chat_sending.js" defer></script>
 </head>
     <body>
     <header>
@@ -23,7 +24,9 @@
             <input type="text" placeholder="Name" name="name">
             <br><br><br><br><br>
             <textarea rows="1" placeholder="Message" name="message"></textarea>
-            <input type="submit" value="Send" tabindex="3">
+<!--            <input type="submit" value="Send" tabindex="3">-->
+            <div id="formRightTop"><div id="submit">Submit</div></div>
+            <div id="formRightBottom"><p>    </p></div>
         </form>
 
         <div id="chat">

@@ -80,7 +80,7 @@ main form p {
     font-size: 1.1rem;
 }
 
-main form input, main form textarea {
+main form input, main form textarea, #submit {
     vertical-align: top;
     box-sizing: border-box;
     font-family: sans-serif;
@@ -97,11 +97,11 @@ main form input, main form textarea {
     resize: none;
 }
 
-main form input:focus, main form textarea:focus {
+main form input:focus, main form textarea:focus, #submit {
     border-bottom: 0.12vw solid rgba(65, 143, 244, 1);
 }
 
-main form input[type='submit'] {
+main form input[type='submit'], #submit {
     border-radius: 5px;
     outline: none;
     border: #28a745;
@@ -114,9 +114,10 @@ main form input[type='submit'] {
     user-select: none;
     cursor: pointer;
     width: 20%;
+    text-align: center;
 }
 
-main form input[type=submit]:hover {
+main form input[type=submit]:hover, #submit {
     background-color: rgba(65, 143, 244, 0.8);
     cursor: pointer;
 }
